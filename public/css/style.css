@@ -1,31 +1,118 @@
 body {
     background-color:rgb(206, 247, 206);
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-.navbar {
-    display:inline-flex;
-    flex-direction: row;
-    position:fixed;
-    height: 8%;
-}
-.navbar img {
-    height:100%;
-}
 .title-area {
-    font-size:2.5rem;
-    height:15%;
+    margin:auto;
+    text-align: center;
+    font-size: 2.5rem;
+    height: 15%;
+    width: 90%;
     background-color: rgba(0,0,0,0.5);
-}
-.lower{
-flex-direction: row;
+    color:snow;
+    border:1px dotted  rgb(14, 37, 14);
+    border-radius:3%;
+    font-family: 'Gayathri', sans-serif;
+    text-decoration: underline;
 }
 
-.left{
-flex-direction:column;
+.lower-bar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 77%;
+    width: 95%;
+    margin: 1% auto;
+}
+
+.left-side {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:30%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    border:1px dotted  rgb(14, 37, 14);
+    border-radius:3%;
+    font-family: 'Gayathri', sans-serif;
+}
+.left-side-top {
+    height:30%;
+    width:100%;
+}
+.left-side-bottom {
+    justify-content: center;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height:70%;
+    width:100%;
+}
+
+.onion-logo {
+color:snow;
+    height: 20%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.onion-image {
+    height:20%;
+    width:100%
+}
+
+.donkey-image-wrap {
+    width: 30%;
+    height: 100%;
+
+}
+
+.donkey-image {
+    height:100%;
+    width:100%;
+    border:1px dotted  rgb(14, 37, 14);
+    
+    border-radius:3%;
+}
+
+.button-section {
+    flex-direction: column;
+    text-align: right;
+    width: 60%;
+    height: 100%;
 }
 
 .right {
-flex-direction: column;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+    text-align: center;
+    border-left:1px dotted black;
+    border-top:1px dotted black;
+}
+
+.button {
+    margin:2% auto;
+    width:70%;
+    height:20%;
+    color:snow;
+    background-color:rgb(113, 145, 113);
+    border:1px solid black;
+    font-size:1.8rem;
+    transition: 0.2s;
+    font-family: 'Gayathri', sans-serif;
+    text-align:center;
+    align-items: center;
+
+}
+.button:hover {
+    color: rgb(14, 37, 14);
+    background-color:lightgray;
+    -moz-box-shadow:    inset 0 0 10px rgb(14, 37, 14);
+   -webkit-box-shadow: inset 0 0 10px rgb(14, 37, 14);
+   box-shadow:         inset 0 0 10px rgb(14, 37, 14);
 }
