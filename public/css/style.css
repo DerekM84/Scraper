@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(206, 247, 206);
+    background-color:rgb(169, 81, 75);
     display: flex;
     flex-direction: column;
 }
@@ -11,11 +11,15 @@ body {
     height: 10%;
     width: 90%;
     background-color: rgba(0,0,0,0.5);
-    color:snow;
+    color:rgb(220, 5, 5);
     border:1px dotted  rgb(14, 37, 14);
     border-radius:3%;
     font-family: 'Gayathri', sans-serif;
     text-decoration: underline;
+}
+
+hr {
+    border-color:rgb(156, 18, 3);
 }
 
 .lower-bar {
@@ -100,7 +104,7 @@ color:snow;
     width:70%;
     height:20%;
     color:snow;
-    background-color:rgb(113, 145, 113);
+    background-color:rgb(156, 18, 3);
     border:1px solid black;
     font-size:1.8rem;
     transition: 0.2s;
